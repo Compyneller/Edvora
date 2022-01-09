@@ -1,0 +1,92 @@
+.CardContainer {
+  width: 100%;
+  height: 190px;
+  background: #131313;
+  border-radius: 15px;
+  padding: 20px 31px;
+}
+.cards {
+  width: 210px;
+  height: 150px;
+  background: #232323;
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* margin-top: -10px; */
+}
+.CardImage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* align-items: center; */
+  /* background: red; */
+  height: 75px;
+}
+.CardImage h4 {
+  font-size: 15px;
+  height: 16px;
+  width: 93px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+}
+.brandName {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  height: 14;
+  line-height: 16px;
+}
+.price {
+  font-size: 13px;
+
+  line-height: 16px;
+}
+.CardImage img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+.locationDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.location p {
+  width: 78px;
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 13px;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 96px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.discription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
